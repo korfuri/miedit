@@ -63,8 +63,8 @@ MiEdit.MiTree = class {
         // Initialize the tree widget
         const widgetTypes = {
             "#": {
-                "max_children": 100,
-                "max_depth": 5,
+                "max_children": 10000,
+                "max_depth": 15,
                 "valid_children": Object.keys(this.children)
             }
         }
